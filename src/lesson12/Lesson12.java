@@ -5,5 +5,7 @@ package lesson12;
  * @version 9.Feb
  */
 public class Lesson12 {
+    public static void main(String[] args) {
 
+    }
 }
