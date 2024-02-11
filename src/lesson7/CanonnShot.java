@@ -9,7 +9,6 @@ import java.util.Scanner;
  * @version 29.Jan
  */
 public class CanonnShot {
-
     public static void main(String[] args) {
         // define using classes
         Random random = new Random();
