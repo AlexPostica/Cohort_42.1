@@ -35,7 +35,5 @@ public class ArrayApp {
             System.out.print( arr[i] + " ");
         System.out.println("");
         System.out.println("Item is deleted " + searchKey);// End of ArrayApp Class
-
-
     }
 }
