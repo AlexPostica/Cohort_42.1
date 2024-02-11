@@ -14,14 +14,11 @@ public class HomeWork9 {
 
         // task1
         task1(5);
-
         // task2
         printArray(array);
-
         // task3
         printArray(array, false);
         printArray(array, true);
-
         // task4
         System.out.println(Arrays.toString(calculateArray(array)));
     }
