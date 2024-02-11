@@ -41,7 +41,5 @@ public class Lesson5 {
             int v = 55;
             System.out.println(v * 2);
         }
-        //int b = 3;
-        //System.out.println(b);
     }
 }
