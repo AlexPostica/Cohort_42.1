@@ -10,12 +10,12 @@ import java.util.Random;
  */
 public class HomeWork8 {
     public static void main(String[] args) {
-        //task1
+        // task1
         for (int i = 1; i < 11; i++) {
             System.out.println("Task" + i);
         }
 
-        //task2
+        // task2
         int[] a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
         for (int i : a) {
             if (i % 5 == 0) {
@@ -23,7 +23,7 @@ public class HomeWork8 {
             }
         }
 
-        //task3
+        // task3
         String[] s = {"Java", "C++", "C#", "go"};
         String strMaxLength = "";
         for (String str : s) {
@@ -35,7 +35,7 @@ public class HomeWork8 {
             System.out.println(chr);
         }
 
-        //task4
+        // task4
         Random random = new Random();
         int[] n = new int[100];
         int sum = 0;
@@ -57,7 +57,7 @@ public class HomeWork8 {
         }
         System.out.println("Max = " + max + ", min = " + min + ", average = " + (sum / (double) n.length) + " " + (sum / n.length));
 
-        //task4 #1
+        // task4 #1
         int arrayLength = 10;
         int[] arrays = new int[arrayLength];
         random = new Random();
