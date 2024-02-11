@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class HomeWork5 {
     public static void main(String[] args) {
-        //task 1
+        // task 1
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter number");
         int n = scanner.nextInt();
@@ -21,7 +21,7 @@ public class HomeWork5 {
         System.out.println("Even: " + b);
         System.out.println("Multiple: " + c);
 
-        //task 2
+        // task 2
         System.out.println("Enter number: 1, 2, 3.");
         int num = scanner.nextInt();
         if (num == 1) {
@@ -34,7 +34,7 @@ public class HomeWork5 {
             System.out.println("False");
         }
 
-        //task 3
+        // task 3
         Random random = new Random();
         int num1 = random.nextInt(101);
         int num2 = random.nextInt(101);
@@ -42,11 +42,11 @@ public class HomeWork5 {
         int num4 = random.nextInt(101);
         System.out.println("Generated Numbers: "  + num1 + ", " + num2 + ", " + num3 + ", " + num4 + ".");
 
-        //Determining the Maximum Number
+        // Determining the Maximum Number
         int maxNum = Math.max(Math.max(num1, num2), Math.max(num3, num4));;
         System.out.println("Maximum Number: " + maxNum);
 
-        //task 3 #1
+        // task 3 #1
         Random random1 = new Random();
         int n1 = random.nextInt(101);
         int n2 = random.nextInt(101);
@@ -58,7 +58,7 @@ public class HomeWork5 {
         int max = Math.max(n12, n34);
         System.out.println("Generated Numbers: "  + n1 + ", " + n2 + ", " + n3 + ", " + n4 + ", max: " + max);
 
-        //task 4
+        // task 4
         String str = "4231";
         if (str.length() == 4) {
             num1 = str.charAt(0) - '0';
