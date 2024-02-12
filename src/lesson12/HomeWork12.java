@@ -23,11 +23,11 @@ public class HomeWork12 {
         }
         System.out.println(idx);
         System.out.println(Arrays.toString(arr));
+
+        // task2
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
-
-    // task2
     public static void selectionSort(int[] arr) {
         int i;
         for (i = 0; i < arr.length - 1; i++) {
