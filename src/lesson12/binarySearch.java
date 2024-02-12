@@ -6,7 +6,7 @@ package lesson12;
  */
 public class binarySearch {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4,5, 7, 8, 9, 23, 45, 67, 78, 89, 99};
+        int[] arr = {1, 2, 3, 4, 5, 7, 8, 9, 23, 45, 67, 78, 89, 99};
         int digit = 23;
         int index = binarySearch(arr, digit);
         if (index != -1){
