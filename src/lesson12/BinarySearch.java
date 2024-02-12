@@ -4,7 +4,7 @@ package lesson12;
  * @author Alexandru
  * @version 7.Feb
  */
-public class binarySearch {
+public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 7, 8, 9, 23, 45, 67, 78, 89, 99};
         int digit = 23;
