@@ -1,6 +1,7 @@
 package lesson12;
 
 import java.util.Arrays;
+import lesson9.HomeWork9;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, hw #12
@@ -9,37 +10,58 @@ import java.util.Arrays;
  */
 public class HomeWork12 {
     public static void main(String[] args) {
+
         // task1
-        int[] arr = {3, 71, 74, 83, 34, 66, 55, 12};
-        int numSearch = 55;
-        int idx = -1;
-        int i = 0;
-        int minIndex = i;
-        for (i = 0; i < arr.length; i++) {
-            if (arr[i] == numSearch) {
-                idx = i;
-                break;
-            }
-        }
-        System.out.println(idx);
-        System.out.println(Arrays.toString(arr));
+        int[] array = HomeWork9.createRandomArray(25, 25 );
+        System.out.println(Arrays.toString(array));
+        System.out.println(linearSearch(array,5));
+        System.out.println(linearSearch(new int[] {1, 2, 3}, 4));
 
         // task2
-        selectionSort(arr);
-        System.out.println(Arrays.toString(arr));
+        selectionSort(array);
+        System.out.println(Arrays.toString(array));
+
+        // task3
+        System.out.println(binarySearch(array, 8));
     }
-    public static void selectionSort(int[] arr) {
-        int i;
-        for (i = 0; i < arr.length - 1; i++) {
-            int minIndex = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j;
+
+    static int linearSearch(int[] a,int n){
+        for (int i = 0; i < a.length; i++) {
+            if(a[i] == n){
+                return i;
+            }
+        }
+        return -1;
+    }
+    static int binarySearch(int[] a, int n) {
+        int left = 0, right = a.length -1;
+        while (left + 1 != right) {
+            int middle = left + (right - left) / 2;
+            if (a[middle] == n) {
+                return middle;
+            }
+            if (a[middle] > n) {
+                right = middle;
+            } else {
+                left = middle;
+            }
+        }
+        return -1;
+    }
+    static void selectionSort(int[] a) {
+        for (int i = 0; i < a.length -1; i++) {
+            int min = a[i + 1];
+            int minIdx = i + 1;
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[j] < min) {
+                    min = a[j];
+                    minIdx = j;
                 }
             }
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
+            if (a[i] > min){
+                a[minIdx] = a[i];
+                a[i] = min;
+            }
         }
     }
 }
