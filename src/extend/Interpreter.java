@@ -1,5 +1,9 @@
 package extend;
-
+/**
+ * AIT-TR, cohort 42.1, Java Basic, hw #10
+ * @Alexandru
+ * @version 8-Feb
+ */
 import java.util.Scanner;
 
 public class Interpreter {
