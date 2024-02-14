@@ -1,6 +1,7 @@
 package lesson12;
 
 import java.util.Arrays;
+import extend.Stack;
 import lesson9.HomeWork9;
 
 /**
@@ -23,9 +24,17 @@ public class HomeWork12 {
 
         // task3
         System.out.println(binarySearch(array, 8));
+
+        // task4
+        Stack.push(12);
+        Stack.push(8);
+        Stack.push(-3);
+        System.out.println(Stack.arrayToString());
+        System.out.println(Stack.pop());
+        System.out.println(Stack.arrayToString());
     }
 
-    static int linearSearch(int[] a,int n){
+    public static int linearSearch(int[] a,int n){
         for (int i = 0; i < a.length; i++) {
             if(a[i] == n){
                 return i;
@@ -33,7 +42,7 @@ public class HomeWork12 {
         }
         return -1;
     }
-    static int binarySearch(int[] a, int n) {
+    public static int binarySearch(int[] a, int n) {
         int left = 0, right = a.length -1;
         while (left + 1 != right) {
             int middle = left + (right - left) / 2;
@@ -48,7 +57,7 @@ public class HomeWork12 {
         }
         return -1;
     }
-    static void selectionSort(int[] a) {
+    public static void selectionSort(int[] a) {
         for (int i = 0; i < a.length -1; i++) {
             int min = a[i + 1];
             int minIdx = i + 1;
