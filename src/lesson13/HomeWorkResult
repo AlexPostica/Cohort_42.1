@@ -1,0 +1,17 @@
+Divice name       DESKTOP-OS617JJ
+Processor         Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz   2.40 GHz
+Installed RAM     8.00 GB
+Device ID         3A79E03D-28FC-4B49-8ACC-46807EA02F64
+Product ID        00330-80000-00000-AA775
+System type       64-bit operating system, x64-based processor
+Edition           Windows 10 Pro
+
+ Time to create an array of 100_000 random integers:
+ 0ms - create array
+ 15ms - linear search
+ 5015ms - selection sort
+ 0ms - binary search
+
+ Process finished with exit code 0
+
+  Time to create an array of 1_000_000 random integers
