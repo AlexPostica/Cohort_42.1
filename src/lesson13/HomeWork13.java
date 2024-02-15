@@ -11,7 +11,8 @@ import lesson9.HomeWork9;
 public class HomeWork13 {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
-        int[] array = HomeWork9.createRandomArray(100_000, 100);
+        //int[] array = HomeWork9.createRandomArray(100_000, 100);
+        int[] array = HomeWork9.createRandomArray(1_000_000, 100);
         System.out.println((System.currentTimeMillis() - startTime) + "ms - create array");
 
         startTime = System.currentTimeMillis();
