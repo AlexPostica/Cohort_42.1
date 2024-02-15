@@ -6,7 +6,8 @@ Product ID        00330-80000-00000-AA775
 System type       64-bit operating system, x64-based processor
 Edition           Windows 10 Pro
 
- Time to create an array of 100_000 random integers:
+1# Time to create an array of 100_000 random integers:
+
  0ms - create array
  15ms - linear search
  5015ms - selection sort
@@ -14,4 +15,12 @@ Edition           Windows 10 Pro
 
  Process finished with exit code 0
 
-  Time to create an array of 1_000_000 random integers
+2# Time to create an array of 1_000_000 random integers:
+
+ 32ms - create array
+ 1ms - linear search
+ 504762ms - selection sort
+ 0ms - binary search
+
+ Process finished with exit code 0
+
