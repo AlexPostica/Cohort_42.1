@@ -16,6 +16,7 @@ public class Cat {
 
     public void eat(int food) {
         this.food = food;
+        System.out.print("Procent: ");
     }
 
     public double satieted() {
@@ -27,7 +28,7 @@ public class Cat {
     }
 
     public int walk() {
-        if (food <= 10){
+        if (food > 10){
             System.out.println("I can walk");
             food -= 10;
         }else {
@@ -37,7 +38,7 @@ public class Cat {
         return food;
     }
     public int run() {
-        if (food <= 20){
+        if (food > 20){
             food -= 20;
             System.out.println("I can run");
         } else {
