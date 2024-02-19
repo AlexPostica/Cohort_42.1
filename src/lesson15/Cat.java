@@ -34,7 +34,6 @@ public class Cat {
             System.out.println("Walk");
             energy -= 10;
         }else {
-            eat(10);
             System.out.println("The cat must eat");
         }
         return energy;
@@ -44,7 +43,6 @@ public class Cat {
             energy -= 20;
             System.out.println("Run");
         } else {
-            eat(20);
             System.out.println("The cat must eat");
         }
         return energy;
