@@ -6,7 +6,6 @@ public class Cat {
     int age;
     int volume;
     int food;
-    int energy;
 
     public Cat(String name, String color, int age, int volume) {
         this.name = name;
@@ -17,7 +16,6 @@ public class Cat {
 
     public void eat(int food) {
         this.food = food;
-        energy += food;
         System.out.print("Procent: ");
     }
 
@@ -30,21 +28,21 @@ public class Cat {
     }
 
     public int walk() {
-        if (energy > 10){
+        if (food > 10){
             System.out.println("Walk");
-            energy -= 10;
+            food -= 10;
         }else {
             System.out.println("The cat must eat");
         }
-        return energy;
+        return food;
     }
     public int run() {
-        if (energy > 20){
-            energy -= 20;
+        if (food > 20){
+            food -= 20;
             System.out.println("Run");
         } else {
             System.out.println("The cat must eat");
         }
-        return energy;
+        return food;
     }
 }
