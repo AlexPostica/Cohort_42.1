@@ -31,7 +31,7 @@ public class Cat {
 
     public int walk() {
         if (energy > 10){
-            System.out.println("I can walk");
+            System.out.println("Walk");
             energy -= 10;
         }else {
             eat(10);
@@ -42,7 +42,7 @@ public class Cat {
     public int run() {
         if (energy > 20){
             energy -= 20;
-            System.out.println("I can run");
+            System.out.println("Run");
         } else {
             eat(20);
             System.out.println("The cat must eat");
