@@ -20,5 +20,12 @@ public class Lesson15 {
         cat1.eat(80);
         System.out.println(cat1.satieted());
         System.out.println(cat1.run());
+
+        // HomeWork class Car
+        Car car = new Car(5,6);
+        car.refuel(20);
+        if (car.engineOn()) {
+            System.out.printf("Drive: " + car.drive(40));
+        }
     }
 }
