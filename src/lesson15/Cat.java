@@ -27,6 +27,7 @@ public class Cat {
         System.out.println("Meow!");
     }
 
+    // task1
     public int walk() {
         if (food > 10){
             System.out.println("Walk");
@@ -36,6 +37,8 @@ public class Cat {
         }
         return food;
     }
+
+    // task2
     public int run() {
         if (food > 20){
             food -= 20;
