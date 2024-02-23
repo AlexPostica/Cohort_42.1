@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, #7
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 29.Jan
  */
 public class CanonnShot {
