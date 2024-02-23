@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, #8
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 31.Jan
  */
 public class Lesson8 {
