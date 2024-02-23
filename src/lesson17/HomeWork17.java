@@ -15,13 +15,7 @@ public class HomeWork17 {
         };
         for (Employee employee : employees) {
             if (employee.getAge() > 40) {
-                System.out.println("Name: " + employee.getFullName());
-                System.out.println("Position: " + employee.getPosition());
-                System.out.println("Email: " + employee.getEmail());
-                System.out.println("Phone: " + employee.getPhoneNum());
-                System.out.println("Salary: " + employee.getSalary());
-                System.out.println("Age: " + employee.getAge());
-                System.out.println();
+                System.out.println(employee);
             }
         }
     }
