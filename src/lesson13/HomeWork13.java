@@ -5,7 +5,7 @@ import lesson9.HomeWork9;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, hw #13
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 13.Feb
  */
 public class HomeWork13 {
