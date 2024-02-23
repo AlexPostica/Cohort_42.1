@@ -1,7 +1,7 @@
 package lesson10;
 /**
  * AIT-TR, cohort 42.1, Java Basic, #10
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 5.Feb
  */
 public class Lesson10 {
