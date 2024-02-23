@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, hm #5
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 23.Jan
  */
 public class HomeWork5 {
