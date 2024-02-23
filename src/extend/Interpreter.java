@@ -1,7 +1,7 @@
 package extend;
 /**
  * AIT-TR, cohort 42.1, Java Basic, hw #10
- * @Alexandru
+ * @Alexandru Postica
  * @version 8-Feb
  */
 import java.util.Scanner;
