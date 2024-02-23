@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, hw #8
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 31.Jan
  */
 public class HomeWork8 {
