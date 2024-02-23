@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, #11
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 7.Feb
  */
 public class Lesson11 {
