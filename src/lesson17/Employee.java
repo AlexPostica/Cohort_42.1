@@ -16,24 +16,11 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
-    public String getName() {
-        return Name;
-    }
-    public String getPosition() {
-        return position;
-    }
-    public String getEmail() {
-        return email;
-    }
-    public String getPhoneNum() {
-        return phoneNum;
-    }
-    public double getSalary() {
-        return salary;
-    }
+
     public int getAge() {
         return age;
     }
+
     @Override
     public String toString() {
         return "Employee{" +
