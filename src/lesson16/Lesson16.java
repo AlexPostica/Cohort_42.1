@@ -1,4 +1,5 @@
 package lesson16;
+
 /**
  * AIT-TR, cohort 42.1, Java Basic, #16
  * @author Alexandru
