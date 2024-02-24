@@ -1,6 +1,6 @@
 package lesson16;
 
-import lesson16.HomeWork16.PetrolStation;
+import lesson15.HomeWork15.PetrolStation;
 
 public class Car {
     int maxVolume;
