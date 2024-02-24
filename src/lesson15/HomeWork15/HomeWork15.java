@@ -1,13 +1,13 @@
-package lesson16.HomeWork16;
+package lesson15.HomeWork15;
 
 import lesson16.Car;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, hw #8
+ * AIT-TR, cohort 42.1, Java Basic, hw #15
  * @author Alexandru Postica
  * @version 22.Feb
  */
-public class HomeWork16 {
+public class HomeWork15 {
     public static void main(String[] args) {
         PetrolStation petrolStation = new PetrolStation(2999);
         Car[] cars = new Car[3];
