@@ -1,7 +1,7 @@
 package lesson17;
 /**
  * AIT-TR, cohort 42.1, Java Basic, hw #17
- * @author Alexandru
+ * @author Alexandru Postica
  * @version 23.Feb
  */
 public class HomeWork17 {
