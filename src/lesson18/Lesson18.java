@@ -15,17 +15,19 @@ public class Lesson18 {
 
         System.out.println(Robot.COMPANY_NAME);
 
-        Robot robot = new Robot(8);
+        Robot robot = new Robot(8 );
         System.out.println(robot);
         System.out.println(Robot.getCount());
         System.out.println(Robot.add(2, 2));
         robot.addAndSave(5);
         robot.addAndSave(12);
         System.out.println(robot.getSum());
+        System.out.println(robot.isCharger());
 
-        Robot r2d2 = new Robot(2);
+        Robot r2d2 = new Robot(4);
         System.out.println(r2d2);
         System.out.println(Robot.getCount());
         System.out.println(r2d2.getSum());
+        System.out.println(robot.noCharger());
     }
 }
