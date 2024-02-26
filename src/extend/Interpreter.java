@@ -34,6 +34,9 @@ public class Interpreter {
     static void assignValue(String line) {
         String[] tokens = line.split("=");
         String varName = tokens[0].trim();
+        if (tokens.length == 1) {
+            System.out.println("Error: Invalid command");
+        }
         String varValue = tokens[1].trim();
         // check variable name
         if (!validateVarName(varName)) {
@@ -68,9 +71,9 @@ public class Interpreter {
             System.out.println("Error: variable name is empty");
             return true;
         }
-        // TODO check if variable name in 'a'..'z'
+        // Check if variable name in 'a'..'z'
         char nameChar = varName.charAt(0);
-        if (nameChar < 'a' || nameChar > 'z') {
+        if ((nameChar < 'a') || (nameChar > 'z')) {
             System.out.println("Error: variable name is invalid");
             return false;
         }
