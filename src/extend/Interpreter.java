@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * AIT-TR, cohort 42.1, Java Basic, hw #10
  * @author Alexandru Postica
- * @ version 8-Feb, 23-Feb
+ * @ version 8,23,26-Feb
  */
 public class Interpreter {
 
@@ -33,6 +33,7 @@ public class Interpreter {
 
     static void assignValue(String line) {
         String[] tokens = line.split("=");
+        // TODO izmenenia na uroke!
         String varName = tokens[0].trim();
         if (tokens.length == 1) {
             System.out.println("Error: Invalid command");
@@ -71,7 +72,7 @@ public class Interpreter {
             System.out.println("Error: variable name is empty");
             return true;
         }
-        // Check if variable name in 'a'..'z'
+        // check if variable name in 'a'..'z'
         char nameChar = varName.charAt(0);
         if ((nameChar < 'a') || (nameChar > 'z')) {
             System.out.println("Error: variable name is invalid");
