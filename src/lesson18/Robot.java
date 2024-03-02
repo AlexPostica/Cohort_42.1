@@ -16,21 +16,21 @@ public class Robot {
         count++;
     }
     // task 1
-    public boolean isCharger () {
-        if (!isConnected) {
-            isConnected = true;
-            System.out.println("Robot connected to the charger.");
-        }
-        return isConnected;
-    }
-    // task 1 #2
-    public boolean noCharger() {
-        if (isConnected) {
-            isConnected = false;
-            System.out.println("Robot disconnected from the charger.");
-        }
-        return isConnected;
-    }
+//    public boolean isCharger () {
+//        if (!isConnected) {
+//            isConnected = true;
+//            System.out.println("Robot connected to the charger.");
+//        }
+//        return isConnected;
+//    }
+//    // task 1 #2
+//    public boolean noCharger() {
+//        if (isConnected) {
+//            isConnected = false;
+//            System.out.println("Robot disconnected from the charger.");
+//        }
+//        return isConnected;
+//    }
 
     public static int getCount() {
         return count;
