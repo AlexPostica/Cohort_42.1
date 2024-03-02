@@ -1,7 +1,5 @@
 package lesson18;
 
-import java.util.logging.SocketHandler;
-
 /**
  * AIT-TR, cohort 42.1, Java Basic, #18
  * @author Alexandru Postica
@@ -22,12 +20,10 @@ public class Lesson18 {
         robot.addAndSave(5);
         robot.addAndSave(12);
         System.out.println(robot.getSum());
-        System.out.println(robot.isCharger());
 
         Robot r2d2 = new Robot(4);
         System.out.println(r2d2);
         System.out.println(Robot.getCount());
         System.out.println(r2d2.getSum());
-        System.out.println(robot.noCharger());
     }
 }
