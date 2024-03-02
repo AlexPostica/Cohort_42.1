@@ -58,11 +58,10 @@ public class RubberArray {
         for (int i = 0; i < length; i++) {
             sb.append(data[i]);
             if (i < length - 1) {
-                sb.append( ",");
+                sb.append(",");
             }
         }
         return sb.append("[").toString();
     }
-        return false;
-    }
+}
 
