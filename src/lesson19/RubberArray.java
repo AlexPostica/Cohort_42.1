@@ -18,7 +18,7 @@ public class RubberArray {
 
     public void add(int value) {
         if (length == data.length) {
-            // create new array
+            // create new array, length *= 1.5
             int[] newData = new int[(int) (length * EXTEND_INDEX)];
             for (int i = 0; i < data.length; i++) {
                 newData[i] = data[i];
@@ -44,14 +44,13 @@ public class RubberArray {
 
     @Override
     public String toString() {
-        //TODO use TringBuider instead of String
-        String str = "{";
+        StringBuilder str = new StringBuilder("[");
         for (int i = 0; i < length; i++) {
-            str += String.valueOf(data[i]);
+            str.append(String.valueOf(data[i]));
             if (i < length - 1) {
-                str += ",";
+                str.append(",");
             }
         }
-        return str + "}";
+        return str + "]";
     }
 }
