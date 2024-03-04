@@ -1,5 +1,10 @@
 package lesson19;
 
+/**
+ * AIT-TR, cohort 42.1, Java Basic, hm #19
+ * @author Alexandru Postica
+ * @version 1.Mar
+ */
 public class RubberArray {
 
     private final int INIT_DATA_SIZE = 10;
