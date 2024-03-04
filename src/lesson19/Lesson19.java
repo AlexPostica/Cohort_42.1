@@ -1,4 +1,5 @@
 package lesson19;
+
 /**
  * AIT-TR, cohort 42.1, Java Basic, #18
  * @author Alexandru Postica
