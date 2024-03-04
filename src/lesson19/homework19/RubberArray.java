@@ -1,6 +1,10 @@
 package lesson19.homework19;
 
-
+/**
+ * AIT-TR, cohort 42.1, Java Basic, hw #21
+ * @author Alexandru Postica
+ * @version 3.Mar
+ */
 public class RubberArray {
 
     private final int INIT_DATA_SIZE = 10;
@@ -49,6 +53,9 @@ public class RubberArray {
     }
 
     public void remove(int idx) {
+        if (idx > length) {
+            throw new IndexOutOfBoundsException();
+        }
         // move element right to left from idx
         for (int i = idx; i < data.length - 1; i++) {
             data[i] = data[i + 1];
