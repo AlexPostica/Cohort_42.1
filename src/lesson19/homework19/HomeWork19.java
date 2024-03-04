@@ -1,5 +1,10 @@
 package lesson19.homework19;
 
+/**
+ * AIT-TR, cohort 42.1, Java Basic, #18
+ * @author Alexandru Postica
+ * @version 1.Mar
+ */
 public class HomeWork19 {
     public static void main(String[] args) {
         RubberArray rb = new RubberArray();
