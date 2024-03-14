@@ -35,10 +35,6 @@ public class RubberArray {
         length++;
     }
 
-    public void add(int value, int idx) {
-        //TODO implement
-    }
-
     public void remove(int idx) {
         // move element right to left from idx
         for (int i = idx; i < data.length - 1; i++) {
