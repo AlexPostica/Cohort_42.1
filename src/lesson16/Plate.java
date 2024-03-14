@@ -11,7 +11,6 @@ public class Plate {
     }
 
     public void add(int food) {
-        //TODO check capaciti
         this.food += food;
     }
     public int amountFood() {
