@@ -36,7 +36,7 @@ public class Lesson10 {
 
         // loops while, do-while
         while (a < 10) {
-            // TODO write loop body
+            System.out.println(a);
             a++;
         }
 
