@@ -13,6 +13,8 @@ public class Lesson23 {
         System.out.println(Integer.toHexString(lesson23.hashCode()));
     }
 
+    //TODO
+
     @Override
     public String toString() {
         return "Lesson23{}";
