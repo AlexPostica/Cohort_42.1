@@ -3,18 +3,17 @@ package lesson26.homework26;
 public class Circle extends Figura{
     private final double radius;
 
-    public Circle(int side, double radius) {
-        super(side);
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     @Override
-    public double Area() {
+    public double calcArea() {
         return Math.PI * radius * radius;
     }
 
     @Override
-    public double Perimeter() {
+    public double calcPerimeter() {
         return 2 * Math.PI * radius;
     }
 }
