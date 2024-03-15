@@ -4,23 +4,19 @@ public class Rectangle extends Figura {
 
     private double height;
     private double width;
-    public Rectangle(int side) {
-        super(side);
-    }
 
     public Rectangle(int side, double height, double width) {
-        super(side);
         this.height = height;
         this.width = width;
     }
 
     @Override
-    public double Area() {
+    public double calcArea() {
         return width * height;
     }
 
     @Override
-    public double Perimeter() {
+    public double calcPerimeter() {
         return 2 * (width + height);
     }
 }
