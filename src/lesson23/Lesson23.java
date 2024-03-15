@@ -1,7 +1,7 @@
 package lesson23;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, #22
+ * AIT-TR, cohort 42.1, Java Basic, #23
  * @author Alexandru Postica
  * @version 6.Mar
  */
