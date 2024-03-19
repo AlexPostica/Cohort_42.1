@@ -1,9 +1,9 @@
 package lesson25.Homework25;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, #25
+ * AIT-TR, cohort 42.1, Java Basic, hw #25
  * @author Alexandru Postica
- * @version 13.Mar
+ * @version 11.Mar
  */
 public class Homework25 {
     public static void main(String[] args) {
