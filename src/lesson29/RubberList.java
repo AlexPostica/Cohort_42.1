@@ -45,7 +45,34 @@ public class RubberList {
     }
 
     public void remove(int idx) {
-
+        if (idx == 0) {
+            if (size == 1) {
+                first = null;
+            } else {
+                Node newFirst = first.next;
+                newFirst.prew = null;
+                first = newFirst;
+            }
+            size--;
+        } else {
+            int index = 0;
+            Node cursor = first;
+            while (cursor.next != null) {
+                index++;
+                cursor = cursor.next;
+                if (idx == index) {
+                    Node left = cursor.prew;
+                    Node right = cursor.next;
+                    left.next = right;
+                    if (right != null) {
+                        right.prew = left;
+                    }
+                    cursor.prew = null;
+                    cursor.next = null;
+                    size--;
+                }
+            }
+        }
     }
     @Override
     public String  toString() {
@@ -74,6 +101,4 @@ public class RubberList {
             this.prew = prew;
         }
     }
-
-
 }
