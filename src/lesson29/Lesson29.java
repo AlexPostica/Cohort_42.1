@@ -15,7 +15,15 @@ public class Lesson29 {
         rubberList.add(2);
         rubberList.add(-45);
         System.out.println(rubberList);
+
+        // get
         System.out.println(rubberList.get(2));
         System.out.println(rubberList.get(3));
+
+        // remove
+        rubberList.remove(0);
+        System.out.println(rubberList);
+        rubberList.remove(2);
+        System.out.println(rubberList);
     }
 }
