@@ -95,10 +95,10 @@ public class RubberList {
         Node next;
         Node prew;
 
-        public Node(Node prew, int element, Node next) {
+        public Node(Node prev, int element, Node next) {
             this.item = element;
             this.next = next;
-            this.prew = prew;
+            this.prew = prev;
         }
     }
 }
