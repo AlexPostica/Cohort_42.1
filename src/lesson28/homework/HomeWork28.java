@@ -14,5 +14,6 @@ public class HomeWork28 {
         seat.up();
         handleBar.left();
         handleBar.right();
+        bicycle.seatPotDiameter();
     }
 }
