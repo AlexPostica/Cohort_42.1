@@ -14,7 +14,7 @@ import java.util.Random;
 
 /**
  * AIT-TR, cohort 42.1, Java Basic, #31
- * @author Alexandru Postica  
+ * @author Alexandru Postica
  * @version 25.Mar
  */
 
@@ -26,7 +26,7 @@ public class Lesson31 extends JFrame {
         new Lesson31();
     }
 
-    Lesson31() {
+    public Lesson31() {
         setTitle("Hello, Swing!");  // заголовок окна
         setDefaultCloseOperation(EXIT_ON_CLOSE); // при закрытии
         setSize(500, 300); // размеры окна
