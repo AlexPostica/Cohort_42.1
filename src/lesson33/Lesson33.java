@@ -4,9 +4,9 @@ package lesson33;
 import java.util.*;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, Lesson #33
- *
- * @version 3-Apr-24
+ * AIT-TR, cohort 42.1, Java Basic, #33
+ * @author Alexandru Postica
+ * @version 3.Apr
  */
 public class Lesson33 {
     public static void main(String[] args) {
