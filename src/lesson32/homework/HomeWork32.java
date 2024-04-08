@@ -6,10 +6,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, Homework #32
- *
- * @author Sergey Iryupin
- * @version 3-Apr-24
+ * AIT-TR, cohort 42.1, Java Basic, hw #32
+ * @author Alexandru Postica
+ * @version 28.Mar
  */
 public class HomeWork32 {
     public static void main(String[] args) {
