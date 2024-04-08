@@ -1,7 +1,7 @@
 package lesson32;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, #32
+ * AIT-TR, cohort 42.1, Java Basic, hw #32
  * @author Alexandru Postica
  * @version 27.Mar
  */
