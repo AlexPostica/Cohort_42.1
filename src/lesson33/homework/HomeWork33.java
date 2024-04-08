@@ -2,7 +2,11 @@ package lesson33.homework;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * AIT-TR, cohort 42.1, Java Basic, hw #33
+ * @author Alexandru Postica
+ * @version 6.Apr
+ */
 public class HomeWork33 {
     public static void main(String[] args) {
         List<Integer> listOne = new ArrayList<>(List.of(1, 2, 3, 4, 5));
