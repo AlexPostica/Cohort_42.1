@@ -1,7 +1,7 @@
 package extend;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, #extend
+ * AIT-TR, cohort 42.1, Java Basic, #20 ext
  * @Alexandru Postica
  * @version 1-Mar
  */
