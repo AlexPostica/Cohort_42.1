@@ -7,9 +7,9 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * AIT-TR, cohort 42.1, Java Basic, Lesson #34
- *
- * @version 5-Apr-24
+ * AIT-TR, cohort 42.1, Java Basic, #34
+ * @author Alexandru Postica
+ * @version 5.Apr
  */
 public class Lesson34 {
     public static void main(String[] args) {
